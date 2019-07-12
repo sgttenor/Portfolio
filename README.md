@@ -1,4 +1,4 @@
 # Revised-Portfolio
 
 Testing out some new portfolio possibilities. 
-This porfolio is for professional consideriation
+This porfolio is for professional consideration
