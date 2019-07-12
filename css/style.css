@@ -869,3 +869,9 @@ blockquote cite {
 blockquote cite:before {
 	content: "\2014 \2009";
 }
+
+.fab {
+	color:#92DD03;
+	margin-left: 20px;
+	margin-top: 10px;
+}
