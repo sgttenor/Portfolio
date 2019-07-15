@@ -873,5 +873,11 @@ blockquote cite:before {
 .fab {
 	color:#92DD03;
 	margin-left: 20px;
-	margin-top: 10px;
+	margin-top: 15px;
+}
+
+#mongo {
+	margin-left: 5px;
+	margin-bottom: 100px;
+	background-position:center center;
 }
