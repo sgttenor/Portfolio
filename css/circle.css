@@ -17,15 +17,6 @@
 		position:relative;
 	}
 	
-	/* .holderCircle::after{
-		content:'';
-		width:500px;
-		height:500px;
-		border-radius:100%;
-		border:1px solid #000;
-		position:absolute;
-		top:0;
-	} */
 
 	.dotCircle{
 		width:100%;
@@ -49,15 +40,16 @@
 
 	.dotCircle  .itemDot {
 		display:relative;
-		width:120px;
-		height:120px;
+		width:100px;
+		height:100px;
 		position:absolute;
 		background:#ddd;
 		color:#fff;
 		border-radius:100%;
 		text-align: center;
-		line-height: 150px;
-		font-size:30px;
+		line-height: 125px;
+		margin-left: 10px;
+		font-size:35px;
 		z-index:3;
 		cursor:pointer;
 		box-shadow:  15px 15px  15px rgba(0, 0, 0, 0.5);
@@ -68,8 +60,8 @@
 	
 	.dotCircle  .itemDot::after {
 		content:"";
-		width: 120px;
-		height: 120px;
+		width: 100px;
+		height: 100px;
 		position: absolute;
 		border-radius: 100%;
 		top: 0;
@@ -81,8 +73,8 @@
 	}
 	.dotCircle  .itemDot::before{
 		content:"";
-		width: 120px;
-		height: 120px;
+		width: 100px;
+		height: 100px;
 		position: absolute;
 		border-radius: 100%;
 		top: 0;
@@ -267,8 +259,8 @@ border-color:#e52c47;
 	}	
 	
 	.contentCircle{
-		width: 430px;
-		height:430px;
+		width: 350px;
+		height:350px;
 		border-radius: 100%;
 		background: url(../img/team/profilepic.jpg) no-repeat;
 		background-position: center; 
@@ -301,7 +293,7 @@ border-color:#e52c47;
 		right: 0;
 		margin: auto;
 		background: #00000054;
-		line-height: 700px;
+		line-height: 550px;
 	}
 	
 	.CirItem.active{

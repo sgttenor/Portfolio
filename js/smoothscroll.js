@@ -505,6 +505,7 @@ function pulse_(x) {
         x -= 1;
         expx = 1 - Math.exp(-x);
         val = start + (expx * (1 - start));
+        
     }
     return val * options.pulseNormalize;
 }

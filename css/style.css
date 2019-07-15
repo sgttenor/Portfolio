@@ -8,6 +8,12 @@ body {
 	overflow-x:hidden;
 }
 
+
+
+.title-row{
+	margin-top: -60px;
+}
+
 .btn {
 margin-top: 15px;
 padding-right: 10px;
@@ -161,7 +167,7 @@ header {
 .intro {
 	font-family:'Playball',cursive;
 	font-size:60px;
-	line-height:1.0;
+	line-height:.25;
 	font-weight: 900;
 }
 
@@ -887,6 +893,10 @@ blockquote cite:before {
 	color:#92DD03;
 	margin-left: 20px;
 	margin-top: 15px;
+}
+
+.fas {
+	margin-bottom: 65px; 
 }
 
 #mongo {
