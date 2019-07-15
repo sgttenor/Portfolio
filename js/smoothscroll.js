@@ -433,7 +433,7 @@ function overflowingAncestor(el) {
  ***********************************************/
 
 function addEvent(type, fn, bubble) {
-    window.addEventListener(type, fn, (bubble||false));
+    window.addEventListener(type, fn, (bubble||false), { passive: false });
 }
 
 function removeEvent(type, fn, bubble) {

@@ -62,8 +62,8 @@ function($) {
 			stickyHeight = parseInt($(this).height());
 			stickyMarginB = parseInt($(this).css('margin-bottom'));
 			currentMarginT = parseInt($(this).next().closest('div').css('margin-top'));
-			// vartop = parseInt($(this).offset().top);
-			//$(this).find('*').removeClass(itemHover);
+		    vartop = parseInt($(this).offset().top);
+			// $(this).find('*').removeClass(itemHover);
 		}
 		$(document).on('scroll', function() {
 			varscroll = parseInt($(document).scrollTop());
@@ -121,4 +121,4 @@ function($) {
 		});
 	});
 
-});
+})
