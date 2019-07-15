@@ -7,6 +7,18 @@ body {
 	font-weight:400;
 	overflow-x:hidden;
 }
+
+.btn {
+margin-top: 15px;
+padding-right: 10px;
+}
+
+img.galleryImg {
+	width: 200px;
+	height: 150px;
+
+}
+
 .playball {
 	font-family:'Playball',cursive;
 }

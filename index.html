@@ -27,25 +27,10 @@
 <body>
   <div class="wrapper" id="wrapper">
     <header>
-      <div class="banner row" id="banner">
-        <div class="parallax text-center" style="background-image: url(img/1.jpg);">
-          <div class="parallax-pattern-overlay">
-            <div class="container text-center" style="height:600px;padding-top:170px;">
-              <a href="#"><img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s"
-                  src="img/2.png" alt="" /></a>
-              <h2 class="intro"><a href="index.html">
-                  <h2>Marco Teti</h2> Full Stack Web Developer
-                </a></h2>
-
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="menu">
-        <div class="navbar-wrapper">
           <div class="container">
             <div class="navwrapper">
-              <div class="navbar navbar-inverse navbar-static-top">
+              <div class="navbar navbar-inverse navbar-fixed-top">
                 <div class="container">
                   <div class="navArea">
                     <div class="navbar-collapse collapse">
@@ -62,23 +47,29 @@
                 </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
-    </header>
-    <br><br>
-    <br><br>
-    <!--about us-->
-    <section class="aboutus" id="aboutus">
-      <div class="container">
-        <div class="heading text-center">
-          <h2>About Me</h2>
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies rutrum.
-            Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros. Etiam ullamcorper sed
-            lectus sit amet mattis. Morbi justo sem, cursus nec convallis a, pellentesque eu mi. Morbi hendrerit
-            ultricies ligula </h3>
+     
+        <!-- <div class="parallax text-center" style="background-image: url(img/1.jpg);">
+          <div class="parallax-pattern-overlay">
+            <div class="container text-center" style="height:600px;padding-top:170px;">
+              <a href="#"><img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s"
+                  src="img/2.png" alt="" /></a>
+             
+
+            </div>
+          </div>
         </div>
-        <div class="row">
+      </div> --> 
+    </header>
+    <div class="container text-center" >
+    <h2 class="intro"><a href="index.html">
+        Marco Teti 
+        <br>
+        <h3>Full Stack Web Developer</h3>
+      </a></h2>
+    </div>
+    <div class="row">
           <div class="holderCircle">
             <div class="dotCircle">
               <span class="itemDot active itemDot1" data-tab="1">
@@ -121,6 +112,19 @@
             </div>
           </div>
         </div>
+    <br><br>
+    <br><br>
+    <!--about us-->
+    <section class="aboutus" id="aboutus">
+      <div class="container">
+        <div class="heading text-center">
+          <h2>About Me</h2>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies rutrum.
+            Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros. Etiam ullamcorper sed
+            lectus sit amet mattis. Morbi justo sem, cursus nec convallis a, pellentesque eu mi. Morbi hendrerit
+            ultricies ligula </h3>
+        </div>
+        
       </div>
     </section>
 
@@ -313,62 +317,80 @@
               <!-- for Masonry column width -->
               <li>
                 <figure>
-                  <img src="img/work/1.jpg" alt="" />
+                  <img class="galleryImg" src="img/work/Foodetary.PNG" alt="foodapp" />
+                  <figcaption>
+                    <h3>Foodetary</h3>
+                    <p>This app uses REACT with MongoDB, incorporates</p>
+                    <div class="col-md-4"><button class="btn btn-primary">GitHub</button></div>
+                    <div class="col-md-4"><button class="btn btn-primary">Try App</button></div>
+                    <br><br>
+                  </figcaption>    
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img class="galleryImg" src="img/work/forest.jpg" alt="forest" />
                   <figcaption>
                     <h3>Vitae fringilla elit</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <div class="col-md-4"><button class="btn btn-primary">GitHub</button></div>
+                    <div class="col-md-4"><button class="btn btn-primary">Try App</button></div>
+                    <br><br>
                   </figcaption>
                 </figure>
               </li>
               <li>
                 <figure>
-                  <img src="img/work/2.jpg" alt="" />
+                  <img class="galleryImg" src="img/work/3.jpg" alt="" />
                   <figcaption>
                     <h3>Vitae fringilla elit</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <div class="col-md-4"><button class="btn btn-primary">GitHub</button></div>
+                    <div class="col-md-4"><button class="btn btn-primary">Try App</button></div>
+                    <br><br>
                   </figcaption>
                 </figure>
               </li>
               <li>
                 <figure>
-                  <img src="img/work/3.jpg" alt="" />
+                  <img class="galleryImg" src="img/work/4.jpg" alt="" />
                   <figcaption>
                     <h3>Vitae fringilla elit</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <div class="col-md-4"><button class="btn btn-primary">GitHub</button></div>
+                    <div class="col-md-4"><button class="btn btn-primary">Try App</button></div>
+                    <br><br>
                   </figcaption>
                 </figure>
               </li>
               <li>
                 <figure>
-                  <img src="img/work/4.jpg" alt="" />
+                  <img class="galleryImg" src="img/work/5.jpg" alt="" />
                   <figcaption>
                     <h3>Vitae fringilla elit</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <div class="col-md-4"><button class="btn btn-primary">GitHub</button></div>
+                    <div class="col-md-4"><button class="btn btn-primary">Try App</button></div>
+                    <br><br>
                   </figcaption>
                 </figure>
               </li>
               <li>
                 <figure>
-                  <img src="img/work/5.jpg" alt="" />
+                  <img class="galleryImg" src="img/work/6.jpg" alt="" />
                   <figcaption>
                     <h3>Vitae fringilla elit</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                  </figcaption>
-                </figure>
-              </li>
-              <li>
-                <figure>
-                  <img src="img/work/6.jpg" alt="" />
-                  <figcaption>
-                    <h3>Vitae fringilla elit</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <div class="col-md-4"><button class="btn btn-primary">GitHub</button></div>
+                    <div class="col-md-4"><button class="btn btn-primary">Try App</button></div>
+                    <br><br>
                   </figcaption>
                 </figure>
               </li>
 
               <li>
                 <figure>
-                  <img src="img/work/7.jpg" alt="" />
+                  <img class="galleryImg" src="img/work/7.jpg" alt="" />
                   <figcaption>
                     <h3>Vitae fringilla elit</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -394,12 +416,12 @@
             <ul>
               <li>
                 <figure>
-                  <img src="img/work/1.jpg" alt="" />
+                  <img src="img/work/Foodetary.PNG" alt="" />
                 </figure>
               </li>
               <li>
                 <figure>
-                  <img src="img/work/2.jpg" alt="" />
+                  <img src="img/work/forest.jpg" alt="" />
                 </figure>
               </li>
               <li>
