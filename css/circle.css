@@ -90,7 +90,7 @@
 	.dotCircle  .itemDot1{
 		background:#ffb048;
 	}
-	.dotCircle  .itemDot1::after	{
+	.dotCircle  .itemDot1::after{
 		
 	}
 	.dotCircle  .itemDot1::before{
@@ -142,58 +142,7 @@
 	border-color:#3dbea0;
 	}
 	
-	
-	.dotCircle  .itemDot6{
-		background:#aa229d;
-	}
-	.dotCircle  .itemDot6::after	{
-	
-	}
-	.dotCircle  .itemDot6::before{	
-		border-color:#aa229d;
-	}
-	
-	.dotCircle  .itemDot7{
-		background:#e06410;
-	}
-	.dotCircle  .itemDot7::after	{
-		
-	}
-	.dotCircle  .itemDot7::before{
-		border-color:#e06410;	
-	}
-	
-	.dotCircle  .itemDot8{
-	background:#1362b7;
-		
-	}
-	.dotCircle  .itemDot8::after	{
-	
-	}
-	.dotCircle  .itemDot8::before{	
-	border-color:#1362b7;
-	}
-	
-	.dotCircle  .itemDot9{
-		background:#e52c47;
-		
-	}
-	.dotCircle  .itemDot9::after	{
-	
-	}
-	.dotCircle  .itemDot9::before{
-border-color:#e52c47;	
-	}
-	
-	.dotCircle  .itemDot10{
-		background:#fe4491;
-	}
-	.dotCircle  .itemDot10::after{
 
-	}
-	.dotCircle  .itemDot10::before{	
-	border-color:#fe4491;
-	}
 	
 	
 	
@@ -262,7 +211,7 @@ border-color:#e52c47;
 		width: 350px;
 		height:350px;
 		border-radius: 100%;
-		background: url(../img/team/profilepic.jpg) no-repeat;
+		/* background: url(../img/team/coding.jpg) no-repeat; */
 		background-position: center; 
 		background-size: 95%;	
 		color: #fff;
@@ -273,6 +222,10 @@ border-color:#e52c47;
 		left: 0;
 		box-shadow: 0px 0px 69px 1px #2b152e;
 		margin: auto;
+	}
+
+	.CirItem::first-letter {
+		color: #92DD03;
 	}
 	
 	.contentCircle .CirItem{
@@ -286,14 +239,16 @@ border-color:#e52c47;
 		transform: scale(0);
 		transition: 0.5s;
 		font-weight: bold;
-		font-size: 13px;
 		width: 100%;
 		height: 100%;
 		top: 0;
 		right: 0;
 		margin: auto;
-		background: #00000054;
-		line-height: 550px;
+		background: white;
+		line-height:350px;
+		font-family:'Playball',cursive;
+		font-size: 40px !important;
+		color:#333 !important;
 	}
 	
 	.CirItem.active{
@@ -303,20 +258,13 @@ border-color:#e52c47;
 		transition:0.5s;
 	}
 	
-	
-	/* .contentCircle .CirItem1{
+	.contentCircle .CirItem1{
 		background:rgba(255, 176, 72, 0.83);
 	}
 	.contentCircle .CirItem1::after,
 	.contentCircle .CirItem2::after,
 	.contentCircle .CirItem3::after,
-	.contentCircle .CirItem4::after,
-	.contentCircle .CirItem5::after,
-	.contentCircle .CirItem6::after,
-	.contentCircle .CirItem7::after,
-	.contentCircle .CirItem8::after,
-	.contentCircle .CirItem9::after,
-	.contentCircle .CirItem10::after{
+	.contentCircle .CirItem4::after{
 		content:'';
 		width:50%;
 		height:100%;
@@ -328,7 +276,7 @@ border-color:#e52c47;
 		z-index:-1;
 		background:rgba(0, 0, 0, 0.33);
 	} */
-	/* .contentCircle .CirItem2{
+	 .contentCircle .CirItem2{
 		background:rgba(40, 169, 224, 0.83);
 	}
 	.contentCircle .CirItem3{
@@ -340,21 +288,7 @@ border-color:#e52c47;
 	.contentCircle .CirItem5{
 		background:rgba(61, 190, 160, 0.83);
 	}
-	.contentCircle .CirItem6{
-		background:rgba(170, 34, 157, 0.83);
-	}
-	.contentCircle .CirItem7{
-		background:rgba(224, 100, 16, 0.83);
-	}
-	.contentCircle .CirItem8{
-		background:rgba(19, 98, 183, 0.83);
-	}
-	.contentCircle .CirItem9{
-		background:rgba(229, 44, 71, 0.83);
-	}
-	.contentCircle .CirItem10{
-		background:rgba(254, 68, 145, 0.83);
-	} */
+	
 
 	
 	@media only screen and (min-width: 300px) and (max-width: 599px){

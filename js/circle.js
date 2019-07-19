@@ -1,9 +1,5 @@
 
 
-//	create by nasir farhadi
-//	email : nasirfarhadi92@gmail.com
-//	Github : nasirfarhadi92
-
 
 
 	let i=2;

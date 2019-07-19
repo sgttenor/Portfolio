@@ -8,6 +8,9 @@ body {
 	overflow-x:hidden;
 }
 
+.aboutus {
+	padding-top: -150px;
+}
 
 
 .title-row{
@@ -182,6 +185,7 @@ header {
 }
 
 
+
 /* --- Parallax --- */
 .parallax {
 	text-align:center;
@@ -212,7 +216,7 @@ header {
 	padding:5px;
 }
 .heading h2::first-letter {
-	color:#92DD03 ;
+	color:#92DD03;
 }
 .heading h3 {
 	font-size:16px;
@@ -371,16 +375,29 @@ img#site-title {
 	margin:0;
 	font-size:14px;
 }
+
+ .rm-thumb1{
+	
+	background-image: url(../img/work/4eae13c7686cb54d_128x128.png);
+	
+}
+.about {
+	font-size: .75em;
+}
 .skills .rm-thumb {
 	width:100px;
 	height:100px;
 	background-repeat:no-repeat;
 	background-position:center center;
+	
 	float:left;
 	margin:0 20px 0 0;
 	box-shadow:inset 1px 1px 3px rgba(0,0,0,0.2),1px 1px 1px rgba(255,255,255,0.1);
 	border-radius:50%;
 }
+
+ 
+
 .skills {
 	font-size:12px;
 	padding:40px 40px 20px 40px;
