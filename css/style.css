@@ -11,7 +11,7 @@ body {
 
 
 .title-row{
-	margin-top: -60px;
+	margin-top: -50px;
 }
 
 .btn {
@@ -169,11 +169,18 @@ header {
 	font-size:60px;
 	line-height:.25;
 	font-weight: 900;
+	margin-bottom: 35px;
+
 }
 
 .intro a {
 	color:#000;
 }
+
+.intro::first-letter {
+	color: #92DD03;
+}
+
 
 /* --- Parallax --- */
 .parallax {
