@@ -141,6 +141,18 @@
 	.dotCircle  .itemDot5::before{	
 	border-color:#3dbea0;
 	}
+
+	.dotCircle  .itemDot6{
+		background:#3dbea0;
+			
+		}
+		
+		.dotCircle  .itemDot6::after	{
+		
+		}
+		.dotCircle  .itemDot6::before{	
+		border-color:#3dbea0;
+		}
 	
 
 	
@@ -227,6 +239,14 @@
 	.CirItem::first-letter {
 		color: #92DD03;
 	}
+
+	.pCircle {
+		font-size: 18px;
+		line-height: 18px;
+		margin-bottom: 20px;
+		width: 100%;
+		height: 100%;
+	}
 	
 	.contentCircle .CirItem{
 		border-radius: 100%;
@@ -245,7 +265,7 @@
 		right: 0;
 		margin: auto;
 		background: white;
-		line-height:350px;
+		line-height:150px;
 		font-family:'Playball',cursive;
 		font-size: 40px !important;
 		color:#333 !important;
