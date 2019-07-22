@@ -136,6 +136,7 @@
 	}
 	
 	.dotCircle  .itemDot5::after	{
+
 	
 	}
 	.dotCircle  .itemDot5::before{	
@@ -153,11 +154,6 @@
 		.dotCircle  .itemDot6::before{	
 		border-color:#3dbea0;
 		}
-	
-
-	
-	
-	
 	
 	
 	.dotCircle .itemDot.active{
