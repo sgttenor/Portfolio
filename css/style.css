@@ -578,6 +578,9 @@ img#site-title {
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
 }
+
+
+
 span.nav-prev:before {
 	content:"\f104";
 }
