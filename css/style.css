@@ -440,6 +440,10 @@ img#site-title {
 	margin:0;
 	font-size: 12px;
 }
+
+.figcaption{
+	height:400px
+}
 /* Grid style */
 .grid-wrap {
 		margin:0 auto;
@@ -842,7 +846,7 @@ blockquote cite:before {
 	content: "\2014 \2009";
 }
 
-.fab {
+.fab, .fa-database {
 	color:#92DD03;
 	margin-left: 20px;
 	margin-top: 15px;
